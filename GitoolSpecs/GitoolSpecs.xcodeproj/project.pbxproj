@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4727DD321E9E89D7008798BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4727DD311E9E89D7008798BF /* main.m */; };
+		4727DD351E9E89D7008798BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4727DD341E9E89D7008798BF /* AppDelegate.m */; };
+		4727DD381E9E89D7008798BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4727DD371E9E89D7008798BF /* ViewController.m */; };
+		4727DD3B1E9E89D7008798BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4727DD391E9E89D7008798BF /* Main.storyboard */; };
+		4727DD3D1E9E89D7008798BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4727DD3C1E9E89D7008798BF /* Assets.xcassets */; };
+		4727DD401E9E89D7008798BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4727DD3E1E9E89D7008798BF /* LaunchScreen.storyboard */; };
+		4727DD4B1E9E89D7008798BF /* GitoolSpecsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4727DD4A1E9E89D7008798BF /* GitoolSpecsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4727DD471E9E89D7008798BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4727DD251E9E89D7008798BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4727DD2C1E9E89D7008798BF;
+			remoteInfo = GitoolSpecs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4727DD2D1E9E89D7008798BF /* GitoolSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitoolSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4727DD311E9E89D7008798BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4727DD331E9E89D7008798BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4727DD341E9E89D7008798BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4727DD361E9E89D7008798BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4727DD371E9E89D7008798BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4727DD3A1E9E89D7008798BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4727DD3C1E9E89D7008798BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4727DD3F1E9E89D7008798BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4727DD411E9E89D7008798BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4727DD461E9E89D7008798BF /* GitoolSpecsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitoolSpecsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4727DD4A1E9E89D7008798BF /* GitoolSpecsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitoolSpecsUITests.m; sourceTree = "<group>"; };
+		4727DD4C1E9E89D7008798BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4727DD2A1E9E89D7008798BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4727DD431E9E89D7008798BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4727DD241E9E89D7008798BF = {
+			isa = PBXGroup;
+			children = (
+				4727DD2F1E9E89D7008798BF /* GitoolSpecs */,
+				4727DD491E9E89D7008798BF /* GitoolSpecsUITests */,
+				4727DD2E1E9E89D7008798BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4727DD2E1E9E89D7008798BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4727DD2D1E9E89D7008798BF /* GitoolSpecs.app */,
+				4727DD461E9E89D7008798BF /* GitoolSpecsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4727DD2F1E9E89D7008798BF /* GitoolSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				4727DD331E9E89D7008798BF /* AppDelegate.h */,
+				4727DD341E9E89D7008798BF /* AppDelegate.m */,
+				4727DD361E9E89D7008798BF /* ViewController.h */,
+				4727DD371E9E89D7008798BF /* ViewController.m */,
+				4727DD391E9E89D7008798BF /* Main.storyboard */,
+				4727DD3C1E9E89D7008798BF /* Assets.xcassets */,
+				4727DD3E1E9E89D7008798BF /* LaunchScreen.storyboard */,
+				4727DD411E9E89D7008798BF /* Info.plist */,
+				4727DD301E9E89D7008798BF /* Supporting Files */,
+			);
+			path = GitoolSpecs;
+			sourceTree = "<group>";
+		};
+		4727DD301E9E89D7008798BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4727DD311E9E89D7008798BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4727DD491E9E89D7008798BF /* GitoolSpecsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4727DD4A1E9E89D7008798BF /* GitoolSpecsUITests.m */,
+				4727DD4C1E9E89D7008798BF /* Info.plist */,
+			);
+			path = GitoolSpecsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4727DD2C1E9E89D7008798BF /* GitoolSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4727DD4F1E9E89D7008798BF /* Build configuration list for PBXNativeTarget "GitoolSpecs" */;
+			buildPhases = (
+				4727DD291E9E89D7008798BF /* Sources */,
+				4727DD2A1E9E89D7008798BF /* Frameworks */,
+				4727DD2B1E9E89D7008798BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitoolSpecs;
+			productName = GitoolSpecs;
+			productReference = 4727DD2D1E9E89D7008798BF /* GitoolSpecs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4727DD451E9E89D7008798BF /* GitoolSpecsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4727DD521E9E89D7008798BF /* Build configuration list for PBXNativeTarget "GitoolSpecsUITests" */;
+			buildPhases = (
+				4727DD421E9E89D7008798BF /* Sources */,
+				4727DD431E9E89D7008798BF /* Frameworks */,
+				4727DD441E9E89D7008798BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4727DD481E9E89D7008798BF /* PBXTargetDependency */,
+			);
+			name = GitoolSpecsUITests;
+			productName = GitoolSpecsUITests;
+			productReference = 4727DD461E9E89D7008798BF /* GitoolSpecsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4727DD251E9E89D7008798BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HerS;
+				TargetAttributes = {
+					4727DD2C1E9E89D7008798BF = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 94E2U3A9PG;
+						ProvisioningStyle = Automatic;
+					};
+					4727DD451E9E89D7008798BF = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 94E2U3A9PG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4727DD2C1E9E89D7008798BF;
+					};
+				};
+			};
+			buildConfigurationList = 4727DD281E9E89D7008798BF /* Build configuration list for PBXProject "GitoolSpecs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4727DD241E9E89D7008798BF;
+			productRefGroup = 4727DD2E1E9E89D7008798BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4727DD2C1E9E89D7008798BF /* GitoolSpecs */,
+				4727DD451E9E89D7008798BF /* GitoolSpecsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4727DD2B1E9E89D7008798BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4727DD401E9E89D7008798BF /* LaunchScreen.storyboard in Resources */,
+				4727DD3D1E9E89D7008798BF /* Assets.xcassets in Resources */,
+				4727DD3B1E9E89D7008798BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4727DD441E9E89D7008798BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4727DD291E9E89D7008798BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4727DD381E9E89D7008798BF /* ViewController.m in Sources */,
+				4727DD351E9E89D7008798BF /* AppDelegate.m in Sources */,
+				4727DD321E9E89D7008798BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4727DD421E9E89D7008798BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4727DD4B1E9E89D7008798BF /* GitoolSpecsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4727DD481E9E89D7008798BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4727DD2C1E9E89D7008798BF /* GitoolSpecs */;
+			targetProxy = 4727DD471E9E89D7008798BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4727DD391E9E89D7008798BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4727DD3A1E9E89D7008798BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4727DD3E1E9E89D7008798BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4727DD3F1E9E89D7008798BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4727DD4D1E9E89D7008798BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4727DD4E1E9E89D7008798BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4727DD501E9E89D7008798BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94E2U3A9PG;
+				INFOPLIST_FILE = GitoolSpecs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HerS.GitoolSpecs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4727DD511E9E89D7008798BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94E2U3A9PG;
+				INFOPLIST_FILE = GitoolSpecs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HerS.GitoolSpecs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4727DD531E9E89D7008798BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 94E2U3A9PG;
+				INFOPLIST_FILE = GitoolSpecsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HerS.GitoolSpecsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GitoolSpecs;
+			};
+			name = Debug;
+		};
+		4727DD541E9E89D7008798BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 94E2U3A9PG;
+				INFOPLIST_FILE = GitoolSpecsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HerS.GitoolSpecsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GitoolSpecs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4727DD281E9E89D7008798BF /* Build configuration list for PBXProject "GitoolSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4727DD4D1E9E89D7008798BF /* Debug */,
+				4727DD4E1E9E89D7008798BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4727DD4F1E9E89D7008798BF /* Build configuration list for PBXNativeTarget "GitoolSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4727DD501E9E89D7008798BF /* Debug */,
+				4727DD511E9E89D7008798BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4727DD521E9E89D7008798BF /* Build configuration list for PBXNativeTarget "GitoolSpecsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4727DD531E9E89D7008798BF /* Debug */,
+				4727DD541E9E89D7008798BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4727DD251E9E89D7008798BF /* Project object */;
+}
